@@ -1,6 +1,2 @@
-os
-random
-asyncio
-datetime
-aiogram
-python-dotenv
+aiogram==2.16.1
+python-dotenv==0.19.1
