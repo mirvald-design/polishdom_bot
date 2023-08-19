@@ -1,0 +1,6 @@
+os
+random
+asyncio
+datetime
+aiogram
+python-dotenv
