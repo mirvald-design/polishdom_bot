@@ -44,7 +44,7 @@ async def test(message: types.Message):
     if user_id in user_progress:
         words_to_test = user_progress[user_id]["current_words"]
         if words_to_test:
-            await message.answer("Тест: переведите слова на английский.")
+            await message.answer("Тест: переведите слова нa английский.")
             for word in words_to_test:
                 await message.answer(f"Переведите: {word_database[word]}")
         else:
